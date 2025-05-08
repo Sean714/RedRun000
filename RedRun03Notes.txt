@@ -1,5 +1,6 @@
-03) Dash, WallJump and Launch
+03) Dash, WallJump, double jump and Launch
 TODO - ADD DASH JUICE!
+TODO - DOuble Jump!
 
 (Launch Character versus Timeline and set velocity??)
 
