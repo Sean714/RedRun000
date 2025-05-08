@@ -1,6 +1,6 @@
-03) Dash, WallJump, double jump and Launch
+03) Dash, WallJump, Double jump and Launch
 TODO - ADD DASH JUICE!
-TODO - DOuble Jump!
+
 
 (Launch Character versus Timeline and set velocity??)
 
@@ -17,6 +17,10 @@ Use full sheet. (Done in 1?)
 
 Wall Slide:
 Event Hit -> Other actor -> Actor Has tag
+
+Double Jump = setting in top of character hierarchy
+
+Fix Exit jump and make Exit wallslide for sounds
 
 *****************************************
 TileMap Actor and Wall jump!:
