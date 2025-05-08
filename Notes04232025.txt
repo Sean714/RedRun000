@@ -1,0 +1,56 @@
+findiNames:
+RedRun
+Cornelia Gale
+
+Lessons:
+01) Project, Assets, Sprites, Flipbooks and Camera
+02) Input, Locomotion, Jump, Sounds and States
+03) Dash, WallJump and Launch
+04) Interaction, Pickups and Health
+05) UI, Inventory, Quest and Dialog
+06) Switches, Doors, Platforms and traps 
+07) Enemies, Patrol, Behavior Tree and Attacks
+08) Enemies, Patrol, Behavior Tree and Attacks2
+09) Player Animations, Weapon and Combat
+10) Player Animations, Weapon and Combat2
+11) Parallax Background
+12) Tilesets and Levels
+13) Bonus - Cinematics and Cutscenes
+14) Bonus - Start Menu, Settings and Save Game
+
+Assets:
+https://legnops.itch.io/red-hood-character
+https://pixel-poem.itch.io/dungeon-assetpuck
+https://maaot.itch.io/mossy-cavern
+https://incolgames.itch.io/dungeon-platformer-tile-set-pixel-art
+https://ansimuz.itch.io/sunny-land-pixel-game-art
+https://zerie.itch.io/tiny-rpg-character-asset-pack
+https://clockworkraven.itch.io/raven-fantasy-icons
+https://toffeecraft.itch.io/ui-user-interface-mega-pack
+https://ansimuz.itch.io/gothicvania-patreon-collection
+
+Character Animations:
+Idle
+Walk
+Run
+Jump (Start, Loop, End)
+WallJump
+Dash (and Effect)
+Launch (and Effect)
+Cloak Throw
+Cloak Swing
+
+Enemy animations:
+Idle
+Patrol
+Attack
+
+
+
+
+
+
+
+
+
+
