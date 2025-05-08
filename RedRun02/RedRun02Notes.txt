@@ -1,0 +1,105 @@
+02) Input, Locomotion, Jump, Sounds and States
+
+Input & Actions Folders - IMC, IA_Move, IA_Jump, IA_Interact
+
+Begin play -> (Get Player COntroller(??)), set IMC
+IA_Move -> Add movement input x1
+Spring Arm inherit pitch yaw roll = FALSE
+
+Enable PaperZD
+
+Anim Source
+Add Anim Sequences
+Character Folder -> RC -> PapaerZD -> PaperZD AnimBP
+Anim Graph play idle
+character BP add paperZDanimation component
+Anim Instance Class -> ABP_
+Render Component Ref -> Sprite
+
+AnimBP Graph -> Init -> Store Character and MOvement Componenet
+
+On Tick - Get Valid Character
+Sequence
+1) Set isMoving
+2) Set isFalling
+(Collapse to functions?) (Comments?)
+
+AnimGraph
+Make Locomotion State -> Into Output Animation
+In locomotion -> new idle state -> play idle
+In locomotion - idle to new state "Run"
+In run - play run
+Transition rules in and out of run (TF isMoving)
+
+Jump & Transition RUles (PaperZD specific! Show regular jump loop example)
+
+From Idle - New State - Jump
+Transition to Jump (isFalling TRUE)
+Select transition rule - Open Animation Graph - Play Jump Start
+Drag back to idle - transition rule NOT isFalling
+Select transition rule - Open Anim Graph - Play Jump End
+Back to Jump state - Play Jump Loop
+
+NEED TO PREVENT RUNNING WHEN IN AIR!
+Transition Running back to Idle - is NOT moving OR is Falling
+
+** Need to prevent jump start when falling off ledge!!
+(CMC - Z velocity - 1600, Gravity Scale 3, Max Acceleration 150000)
+Rename Jump to JumpLoop
+Back to Anim Event Graph.. store Velocity out of Get velocity.
+In Idle to Jump (Rule) - > Get Velocity -> Split pin -> Z > 0 AND isFalling TRUE
+
+Now nothing is transitioning to loop when falling so...
+Add another transition from Idle to JumpLoop -> Only check isFalling
+Set transition priorities - Is falling AND get velocity = 1
+just isfalling = 0
+
+OPTIONAL - Slow down JumpLoop if it loops before you hit the ground
+
+SOUND NOTIFIES:
+MetaSound!
+MS_Footsteps -> Add input -> Type->WaveAsset->IsArray
+Undock content -> Drag is 6 sounds
+MetaSOPound tab -> Output Formet -> Stereo
+RC -> Wave PLayer 2.0
+Connect output finished left right
+random get -> Wave Asset Array "Input" to input array -> input to next -> on next to play
+value to wave asset
+
+Between Random Get and Wave PLayer add random float
+Value to Pitch shift and min max -1 to 1
+Source tab -> Volume to .5
+
+Find AS_CorneliaRun - Rename Track to Footsteps
+Add Sounds notifies at frame 6 and frame 18
+
+JUMP SOUNDS!
+Copy MS_Footsteps and make MS_Template
+(Do this first?)
+Add three sounds to MS_JumpStart -> Add Notify to AS_Cornelia JumpSTart frame 0
+
+REPEAT FOR JUMP ENDS - MS_JumpEnd
+Bug = JumpEnd not always playing
+
+ABP_Cornelia -> Custom Event -> Rename ExitJumpLoop -> PlaySOund 2D -> MS_JumpEnd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
