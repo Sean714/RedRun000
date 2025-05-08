@@ -1,0 +1,34 @@
+03) Dash, WallJump and Launch
+TODO - ADD DASH JUICE!
+
+(Launch Character versus Timeline and set velocity??)
+
+Tileset Actor for walls (for wall jump)
+
+DASH:
+Input Action IA_Dash
+IMC - LMB
+IA_Dash ->Do Once->Select(MovingRIght)->Launch
+(XYOverride and ZOverride = TRUE)
+
+Dash animations:
+Use full sheet. (Done in 1?)
+
+Wall Slide:
+Event Hit -> Other actor -> Actor Has tag
+
+*****************************************
+TileMap Actor and Wall jump!:
+https://www.youtube.com/watch?v=PKIJmEXpE1Q
+
+*****************************************
+
+
+
+
+
+
+
+
+
+
