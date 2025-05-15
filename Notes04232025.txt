@@ -2,6 +2,8 @@ findiNames:
 RedRun
 Cornelia Gale
 
+TODO - ADD DASH JUICE!
+
 Lessons:
 01) Project, Assets, Sprites, Flipbooks and Camera
 02) Input, Locomotion, Jump, Sounds and States
