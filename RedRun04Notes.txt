@@ -1,1 +1,7 @@
 04) Interaction, Pickups and Health
+1) A pickup
+2) An E to interact
+3) A switch with interfaces.
+4) Health (No UI)
+
+**********************************************
