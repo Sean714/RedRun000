@@ -9,8 +9,8 @@ Lessons:
 02) Input, Locomotion, Jump, Sounds and States
 03) Dash, WallJump and Launch
 04) Interaction, Pickups and Health
-05) UI, Inventory, Quest and Dialog
-06) Switches, Doors, Platforms and traps 
+05) Switches, Doors, Platforms and traps
+06) UI, Inventory, Quest and Dialog
 07) Enemies, Patrol, Behavior Tree and Attacks
 08) Enemies, Patrol, Behavior Tree and Attacks2
 09) Player Animations, Weapon and Combat
