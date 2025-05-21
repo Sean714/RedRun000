@@ -1,7 +1,6 @@
 04) Interaction, Pickups and Health
-1) A pickup
-2) An E to interact
-3) A switch with interfaces.
-4) Health (No UI)
+1) A pickup - key, health potion, coin
+2) Potion and Coin count variables
+5) Health (No UI)
 
 **********************************************
