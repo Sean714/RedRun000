@@ -1,1 +1,11 @@
 05) Switches, Doors, Platforms and traps
+
+Auto-Platform
+Switch
+Switch PLatform
+Switch Door
+
+Key Door
+
+Health variable
+Damage volume (trap)
