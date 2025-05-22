@@ -1,6 +1,25 @@
-04) Interaction, Pickups and Health
-1) A pickup - key, health potion, coin
+04) Pickups, sounds Niagara and Simple Health
+1) Pickups Coin, Health potion
 2) Potion and Coin count variables
-5) Health (No UI)
+3) Health (No UI)
+4) SW_Pickup
+5) NS_Pickup
 
 **********************************************
+
+Pickup:
+Create BPI_UpdateStats
+Add Update coins - Input coins int
+in charBP coins int
+create custom event "update coins"
+Temp timer to print coins
+
+JUICE sw_pickup ns_pickup
+Key Flipbook
+
+Apply Paper 2D sttings
+Create Sprintes Create Flipbook
+
+Add Update Potions to interface
+Add UpdatePortions interface event to Char
+

@@ -8,7 +8,7 @@ Lessons:
 01) Project, Assets, Sprites, Flipbooks and Camera
 02) Input, Locomotion, Jump, Sounds and States
 03) Dash, WallJump and Launch
-04) Interaction, Pickups and Health
+04) Pickups, sounds Niagara and Simple Health
 05) Switches, Doors, Platforms and traps 
 06) UI, Inventory, Quest and Dialog
 07) Enemies, Patrol, Behavior Tree and Attacks
@@ -30,6 +30,7 @@ https://zerie.itch.io/tiny-rpg-character-asset-pack
 https://clockworkraven.itch.io/raven-fantasy-icons
 https://toffeecraft.itch.io/ui-user-interface-mega-pack
 https://ansimuz.itch.io/gothicvania-patreon-collection
+https://varipixels.itch.io/potions-sprites
 
 Character Animations:
 Idle
