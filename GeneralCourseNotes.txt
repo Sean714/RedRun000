@@ -8,17 +8,18 @@ Lessons:
 01) Project, Assets, Sprites, Flipbooks and Camera
 02) Input, Locomotion, Jump, Sounds and States
 03) Dash, WallJump and Launch
-04) Pickups, sounds Niagara and Simple Health
-05) Switches, Doors, Platforms and traps 
-06) UI, Inventory, Quest and Dialog
-07) Enemies, Patrol, Behavior Tree and Attacks
-08) Enemies, Patrol, Behavior Tree and Attacks2
-09) Player Animations, Weapon and Combat
-10) Player Animations, Weapon and Combat2
-11) Parallax Background
-12) Tilesets and Levels
-13) Bonus - Cinematics and Cutscenes
-14) Bonus - Start Menu, Settings and Save Game
+04) Pickups, timelines, sounds Niagara.
+05) Platforms Switches and Doors 
+06) UI health and damage.
+07) Inventory, Quest and Dialog
+08) Enemies, Patrol, Behavior Tree and Attacks
+09) Enemies, Patrol, Behavior Tree and Attacks2
+10) Player Animations, Weapon and Combat
+11) Player Animations, Weapon and Combat2
+12) Parallax Background
+13) Tilesets and Levels
+14) Bonus - Cinematics and Cutscenes
+15) Bonus - Start Menu, Settings and Save Game
 
 Assets:
 https://legnops.itch.io/red-hood-character
