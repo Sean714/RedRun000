@@ -5,9 +5,21 @@ WBP_RedRunMenu - Canvas -Horiz Box - SlotBorder & SlotIcon x3
 BP_Cornelia - mouse up and down
 WBP_ graph - highlight sleected and unhighlight everyone else
 
+DO NOT DO! (in class)
 Inventory array and pickup sequence for updating it.
 
-TODO: Add icon and counters
+Health and Damage
+create Bar name HealthBar isVariable
+INterface function Adjust Health
+WBP Graph function set health
+Call set health on begin play with 1
+BP_DamageVolume get playe ref
+add box collision
+on overlap check player
+send -.25 to interface adjust health
+
+
+
 
 
 
