@@ -5,18 +5,9 @@ WBP_RedRunMenu - Canvas -Horiz Box - SlotBorder & SlotIcon x3
 BP_Cornelia - mouse up and down
 WBP_ graph - highlight sleected and unhighlight everyone else
 
-BP_ItemParent BP_CoinItem BP_PotionItem BP_KeyItem
+Inventory array and pickup sequence for updating it.
 
-BP Item Parent
-Player var rename to character.
-Get character on begin play
-Delete BPI update stats
-Add Update count to BPI interact
-add keys count to BP Cornelia
-On BP_Cornelia class setting remove BPI_UpdateStats
-Delete update coins & update potions
-
-parent item overlap is spawn effects, wink out, update count (local)
+TODO: Add icon and counters
 
 
 
