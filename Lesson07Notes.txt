@@ -1,1 +1,12 @@
 07) Inventory, Quest and Dialog
+
+DO THE IINVENTORY PART OF 6 YOU SKIPPED
+
+Wrap SLot Border with Overlay and add SlotText
+REFER TO LESSON 06 NOTES FOR FIRST HALF OF INVENTORY
+
+Update Inventory:
+WBP_RedRunMain load inventory array into widget
+
+
+

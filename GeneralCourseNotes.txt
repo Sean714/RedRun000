@@ -2,23 +2,32 @@ findiNames:
 RedRun
 Cornelia Gale
 
+TODO - Change pickups to parent/child (After IDQ)
 TODO - ADD DASH JUICE!
 
 Lessons:
 01) Project, Assets, Sprites, Flipbooks and Camera
+Black
 02) Input, Locomotion, Jump, Sounds and States
 03) Dash, WallJump and Launch
+Red
 04) Pickups, timelines, sounds Niagara.
-05) Platforms Switches and Doors 
+05) Platforms Switches and Doors
+Green
 06) UI health and damage.
 07) Inventory, Quest and Dialog
+Blue
 08) Enemies, Patrol, Behavior Tree and Attacks
 09) Enemies, Patrol, Behavior Tree and Attacks2
+Yellow
 10) Player Animations, Weapon and Combat
 11) Player Animations, Weapon and Combat2
+Cyan
 12) Parallax Background
 13) Tilesets and Levels
+Magenta
 14) Bonus - Cinematics and Cutscenes
+White
 15) Bonus - Start Menu, Settings and Save Game
 
 Assets:
