@@ -8,5 +8,21 @@ REFER TO LESSON 06 NOTES FOR FIRST HALF OF INVENTORY
 Update Inventory:
 WBP_RedRunMain load inventory array into widget
 
+Create D&Q Data structurs
+WBP quest interface?
+
+TODO -
+Show/hide Dialog Box
+NPC Dialog and four wide rows for responses
+... if no responses
+
+Show/hide Quest log
+Loop trough Quest Table
+
+Quest functions
+Activate
+End
+
+
 
 
