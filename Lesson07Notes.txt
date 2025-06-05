@@ -15,11 +15,12 @@ TODO!! Refactor pickups to have a parent! (Optional)
 
 TODO - 06052025
 🟦 Build Core Quest Manager Functions
- StartQuest(QuestID)
- EndQuest(QuestID)
- GetQuestStatus(QuestID)
+ StartQuest(QuestID) - Done
+ EndQuest(QuestID) - Done
+ GetQuestStatus(QuestID) - Done
+ GetQuest(QuestID) - Done
+ SetNPCDialogByQuestState(QuestID) - Done
  GiveQuestReward(QuestID) (even if basic)
- SetNPCDialogByQuestState(QuestID)
 
 🟧 Dialog Transition Logic
  TriggerDialogTransition(PlayerOption, NPC)
