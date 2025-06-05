@@ -8,20 +8,31 @@ REFER TO LESSON 06 NOTES FOR FIRST HALF OF INVENTORY
 Update Inventory:
 WBP_RedRunMain load inventory array into widget
 
-Create D&Q Data structurs
-WBP quest interface?
+TODO!! Refactor pickups to have a parent! (Optional)
 
-TODO -
-Show/hide Dialog Box
-NPC Dialog and four wide rows for responses
-... if no responses
 
-Show/hide Quest log
-Loop trough Quest Table
 
-Quest functions
-Activate
-End
+
+TODO - 06052025
+🟦 Build Core Quest Manager Functions
+ StartQuest(QuestID)
+ EndQuest(QuestID)
+ GetQuestStatus(QuestID)
+ GiveQuestReward(QuestID) (even if basic)
+ SetNPCDialogByQuestState(QuestID)
+
+🟧 Dialog Transition Logic
+ TriggerDialogTransition(PlayerOption, NPC)
+ GetCurrentDialog(NPC)
+ (Optional) ResetToDefaultDialogIfQuestIncomplete()
+
+🟪 Player Interaction & UI
+ OnPlayerInteract() (Player calls to open dialog)
+ OnPlayerSelectOption() (Handles choice)
+ Create Dialog UI Widget
+ Display NPC dialog text
+ Display up to 4 player options
+ Handle option button click → calls OnPlayerSelectOption()
 
 
 
