@@ -24,15 +24,14 @@ TODO - 06052025
 
 🟧 Dialog Transition Logic
  TriggerDialogTransition(PlayerOption, NPC)
- GetCurrentDialog(NPC)
+ GetCurrentDialog(NPC) - Done
  (Optional) ResetToDefaultDialogIfQuestIncomplete()
 
 🟪 Player Interaction & UI
- OnPlayerInteract() (Player calls to open dialog)
+ OnPlayerInteract() (Player calls to open dialog) - Done
  OnPlayerSelectOption() (Handles choice)
- Create Dialog UI Widget
- Display NPC dialog text
- Display up to 4 player options
+ Create Dialog UI Widget - Done
+ Display NPC dialog text and Options
  Handle option button click → calls OnPlayerSelectOption()
 
 
