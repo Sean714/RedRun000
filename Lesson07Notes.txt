@@ -17,22 +17,28 @@ TODO - 06052025
 🟦 Build Core Quest Manager Functions
  StartQuest(QuestID) - Done
  EndQuest(QuestID) - Done
- GetQuestStatus(QuestID) - Done
+ GetQuestStatus(QuestID) - Done?
  GetQuest(QuestID) - Done
  SetNPCDialogByQuestState(QuestID) - Done
  GiveQuestReward(QuestID) (even if basic)
 
 🟧 Dialog Transition Logic
- TriggerDialogTransition(PlayerOption, NPC)
+ TriggerDialogTransition(PlayerOption, NPC) - Done
  GetCurrentDialog(NPC) - Done
  (Optional) ResetToDefaultDialogIfQuestIncomplete()
 
 🟪 Player Interaction & UI
  OnPlayerInteract() (Player calls to open dialog) - Done
- OnPlayerSelectOption() (Handles choice)
+ OnPlayerSelectOption() (Handles choice) - Done
  Create Dialog UI Widget - Done
  Display NPC dialog text and Options - Done
- Handle option button click → calls OnPlayerSelectOption()
+ Handle option button click → calls OnPlayerSelectOption() - Done
+
+Set End Targets
+Finish Handle Display Quests and description.
+Arrow down and up in box
+(Roll box at bottom and top?)
+
 
 
 
