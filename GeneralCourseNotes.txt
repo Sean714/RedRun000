@@ -7,28 +7,29 @@ TODO - ADD DASH JUICE!
 
 Lessons:
 01) Project, Assets, Sprites, Flipbooks and Camera
-Black
+Black Comments
 02) Input, Locomotion, Jump, Sounds and States
 03) Dash, WallJump and Launch
-Red
+Red Comments
 04) Pickups, timelines, sounds Niagara.
 05) Platforms Switches and Doors
-Green
+Green Comments
 06) UI health and damage.
-07) Inventory, Quest and Dialog
+07) Inventory
+08) Dialog
+09) Quest
 Blue
-08) Enemies, Patrol, Behavior Tree and Attacks
-09) Enemies, Patrol, Behavior Tree and Attacks2
+10) Enemy & Behavior Tree - Patrol
+11) Enemy Attacks
 Yellow
-10) Player Animations, Weapon and Combat
-11) Player Animations, Weapon and Combat2
+12) Player Attack
 Cyan
-12) Parallax Background
-13) Tilesets and Levels
+13) Parallax Background
+14) Tilesets and Levels
 Magenta
-14) Bonus - Cinematics and Cutscenes
+15) Bonus - Cinematics and Cutscenes
 White
-15) Bonus - Start Menu, Settings and Save Game
+16) Bonus - Start Menu, Settings and Save Game
 
 Assets:
 https://legnops.itch.io/red-hood-character

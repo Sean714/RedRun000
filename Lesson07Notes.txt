@@ -10,14 +10,11 @@ WBP_RedRunMain load inventory array into widget
 
 TODO!! Refactor pickups to have a parent! (Optional)
 
-
-
-
 TODO - 06052025
 🟦 Build Core Quest Manager Functions
  StartQuest(QuestID) - Done
  EndQuest(QuestID) - Done
- GetQuestStatus(QuestID) - Done?
+ GetQuestStatus(QuestID) - Done (Needed?)
  GetQuest(QuestID) - Done
  SetNPCDialogByQuestState(QuestID) - Done
  GiveQuestReward(QuestID) (even if basic)
@@ -25,7 +22,7 @@ TODO - 06052025
 🟧 Dialog Transition Logic
  TriggerDialogTransition(PlayerOption, NPC) - Done
  GetCurrentDialog(NPC) - Done
- (Optional) ResetToDefaultDialogIfQuestIncomplete()
+ (Optional) ResetToDefaultDialogIfQuestIncomplete() - Done
 
 🟪 Player Interaction & UI
  OnPlayerInteract() (Player calls to open dialog) - Done
@@ -34,8 +31,6 @@ TODO - 06052025
  Display NPC dialog text and Options - Done
  Handle option button click → calls OnPlayerSelectOption() - Done
 
-Set End Targets
-Finish Handle Display Quests and description.
 Arrow down and up in box
 (Roll box at bottom and top?)
 
