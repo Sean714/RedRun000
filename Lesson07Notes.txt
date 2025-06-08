@@ -31,7 +31,9 @@ TODO - 06052025
  Display NPC dialog text and Options - Done
  Handle option button click → calls OnPlayerSelectOption() - Done
 
-Arrow down and up in box
+End Quest sets target dialogs.
+
+Arrow down and up in box - (Later)
 (Roll box at bottom and top?)
 
 
