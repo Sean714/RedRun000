@@ -43,6 +43,11 @@ https://toffeecraft.itch.io/ui-user-interface-mega-pack
 https://ansimuz.itch.io/gothicvania-patreon-collection
 https://varipixels.itch.io/potions-sprites
 
+Assets Added for Enemies:
+https://free-game-assets.itch.io/free-street-animal-pixel-art-asset-pack
+(Free Street Animal Pixel Art)
+https://robertpinero.itch.io/free-animated-enemy-sprites (Free Sprites)
+
 Character Animations:
 Idle
 Walk
