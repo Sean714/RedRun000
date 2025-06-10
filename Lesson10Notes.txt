@@ -1,2 +1,14 @@
 Blue Comments
 10) Enemy & Patrol Behavior
+
+New "CombatMap"
+Create Rat and Goblin and Fireball sprites & Flipbooks.
+Rat - Idle, walk, attack, hit and death
+Goblin - Idle, walk, attack, hit and death
+
+Do simmple patrol.
+
+Do rat attack
+Do Goblin attack
+
+
