@@ -6,15 +6,15 @@ Create Rat and Goblin and Fireball sprites & Flipbooks.
 Rat - Idle, walk, attack, hit and death
 Goblin - Idle, walk, attack, hit and death
 
-Create Animation Sequences
-Create Enemy BPs (parent?)
+Create Animation Sources
+Create Enemy BP parent.
+(Children get sprite and specific ABP)
 PaperZDAnimation Blueprints - Se;ect ANimation sources
 Write Anim BPs
 Idle/Walk Anim State
 
 Do simmple patrol.
+Inside collision box
 
-Do rat attack
-Do Goblin attack
 
 

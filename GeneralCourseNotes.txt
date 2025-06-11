@@ -21,15 +21,14 @@ Green Comments
 Blue
 10) Enemy & Behavior Tree - Patrol
 11) Enemy Attacks
-Yellow
 12) Player Attack
-Cyan
+Yellow
 13) Parallax Background
 14) Tilesets and Levels
+Cyan
+15) Bonus - Start Menu, Settings and Save Game
 Magenta
-15) Bonus - Cinematics and Cutscenes
-White
-16) Bonus - Start Menu, Settings and Save Game
+16) Bonus - Cinematics and Cutscenes
 
 Assets:
 https://legnops.itch.io/red-hood-character
