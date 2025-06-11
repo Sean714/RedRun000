@@ -1,2 +1,7 @@
 Blue Comments
 11) Enemy Attacks
+TODO
+- Sense Player
+- Revert to patrol
+- Chase
+- Attack
