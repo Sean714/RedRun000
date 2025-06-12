@@ -7,5 +7,7 @@ Blue Comments
 -Grenade
 
 todo
-Attack anims
-Player damage
+Grenade lob timeline
+Rat Attack sounds
+Goblin laughs
+Grenade explosion
