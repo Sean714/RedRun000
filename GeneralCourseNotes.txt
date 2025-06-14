@@ -23,11 +23,12 @@ Blue
 11) Enemy Attacks
 12) Player Attack and Enemy Death
 Yellow
-13) Parallax Background
-14) Tilesets and Levels
+13) Parallax Background Switch Level
 Cyan
-15) Bonus - Start Menu, Settings and Save Game
+14) Tilesets, Level and Level Actors
 Magenta
+15) Bonus - Start Menu, Settings and Save Game
+White Comments
 16) Bonus - Cinematics and Cutscenes
 
 Assets:
