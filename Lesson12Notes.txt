@@ -1,2 +1,8 @@
 Blue Comments
 12) Player Attack and Enemy Death
+
+Player Hit
+Enemy Death Interface
+Patrol Box Destroy self.
+
+
