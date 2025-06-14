@@ -5,9 +5,9 @@ Blue Comments
 - Chase
 - Attack
 -Grenade
-
-todo
 Grenade lob timeline
-Rat Attack sounds
 Goblin laughs
 Grenade explosion
+
+todo
+Rat Attack sounds
