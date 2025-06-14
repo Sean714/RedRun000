@@ -21,7 +21,7 @@ Green Comments
 Blue
 10) Enemy & Behavior Tree - Patrol
 11) Enemy Attacks
-12) Player Attack
+12) Player Attack and Enemy Death
 Yellow
 13) Parallax Background
 14) Tilesets and Levels
