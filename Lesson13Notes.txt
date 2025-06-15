@@ -1,22 +1,58 @@
 Yellow Comments
-13) Parallax Background Switch Level
+13) Parallax Background & Switch Levels
+- Create test level (skinny walk way and nothing else)
+- Set up basic levels for ortho camera (ortho width 1000)
+- Make child of Cornelia (so BP_Cornelia casts work)
+- Orthographic camera on spring arm
 
-Create test level (skinny walk way and nothing else)
+Backgrounds
+-Apply Paper 2d
+-Create Sprite
 
-Duplicate Cornelia
+BP_Character
+-Add PaperSprite to Spring Arm
+-Select texture and rotate
+-Add more sprites to static background for moving layers
+-Create 'Collect Layers' on BeginPlay in BP_CorneliaParallax
 
-Orthographic camera on spring arm
+Create custom material and material instance.
+-Select Layer
+-Find MaskedUnlitSpriteMaterial
+-Don't copy that material instance
+-Use the material it's based on
+-"DefaultSpriteMaterial"
+-Copy this to parallax folder
+-M_ParallaxSprite
+-RC create material instance
+-MI_ParallaxSprite
+-Use MI on the moving layers
+-Edit/Code the M_ (material)
+-BP code is creating a dynamic material instance for each layer
+-(Cast to paper sprite component off for each loop)
+-Create Dynamic material instance
+-(Dynamic Layers Array)(ParallaxMultiplier array)
+-2nd input to 1st multiply is 'hold 1 and LC' for float node
+-RC convert to parameter
+-"ParallaxMultiplier"
+-Camera Position World Space -> ComponentMask is R value only
 
-Add Static Bgd and Moving layers to spring arm
+- Create visibility function
 
-Create 'Collect Layers' in BP_Cornelia
+- Create Volume to toggle visibility and switch levels
 
-Call on BeginPLay
+TODO and Questions: 
+- Update Dialog Moves to Interact INterface?
+- Quest and Dialog INterface becomes GIInterface?
+- Add Background Visiblility variable
+- Add Set Background Variable interface function
+- Add Get BackGround Variable interface function
+- in BP_CorneliaParallax on Begin PLay get Background variable
+- Then set backgrounds
 
-Create Material and Material Instance
 
-Create visibility function
 
-Create Volume to toggle visibility and switch levels
+
+
+
 
 
