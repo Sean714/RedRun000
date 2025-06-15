@@ -40,12 +40,13 @@ Create custom material and material instance.
 
 - Create Volume to toggle visibility and switch levels
 
-TODO and Questions: 
-- Update Dialog Moves to Interact INterface?
-- Quest and Dialog INterface becomes GIInterface?
-- Add Background Visiblility variable
-- Add Set Background Variable interface function
-- Add Get BackGround Variable interface function
+New Level: 
+- Update Dialog (Delete not used)
+- Quest and Dialog INterface becomes GIInterface
+- Add Background Visiblility variable to GI
+- Add Set Background Variable interface function to GI
+- Add Get BackGround Variable interface function to GI
+- Level End calls set Background variable
 - in BP_CorneliaParallax on Begin PLay get Background variable
 - Then set backgrounds
 
