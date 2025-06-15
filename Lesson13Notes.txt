@@ -1,3 +1,22 @@
 Yellow Comments
 13) Parallax Background Switch Level
 
+Create test level (skinny walk way and nothing else)
+
+Duplicate Cornelia
+
+Orthographic camera on spring arm
+
+Add Static Bgd and Moving layers to spring arm
+
+Create 'Collect Layers' in BP_Cornelia
+
+Call on BeginPLay
+
+Create Material and Material Instance
+
+Create visibility function
+
+Create Volume to toggle visibility and switch levels
+
+
