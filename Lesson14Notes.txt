@@ -1,5 +1,46 @@
 Cyan Comments
 14) Tilesets, Level and Level Actors
+-TODO Door
+
+- Level Tilesets
+- Tileset Actors
+-- Platforms
+-- Doors
+-- ??
+
+Level Creation:
+Empty Level
+Optional default floor (temp)
+Lighting - camera - metering - manual then exposure compensation (10.1?)
+Projection Mode - Orthographic
+For editor... Lit->Uncheck Game Settings -> EV100 = 0
+
+Build Levels
+Create Tilesets:
+Move Tileset assets/pngs in
+-Dungeon
+-MossyCavern
+(Apply Paper2D)
+RC create Tileset
+RC Condition tileset texture (Dungeon ok.. DO NOT DO MOSSY!)
+Open Adjust square size (32x32?)
+Add collisions (Add box, add polygon)
+(MossyMain and Dungeon squares and stairs)
+
+Create TileMap
+RC Tileset "Create TileMap"
+In the TM_s pixel per unit .25
+Map Width & Map Height
+Constrain to Y. Open character. Select movement component.
+Constrain to plane Y.
+(Show Collision Find Layer Collides)
+Foreground (uncheck layer collides)
+Midground
+Background (uncheck layer collides)
+Sort Priority - Translucent Unlit Srite Material has a sort priority
+(Sort prio for character and props (sprites))
+
+
 
 
 
