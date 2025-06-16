@@ -31,6 +31,8 @@ Magenta
 White Comments
 16) Bonus - Cinematics and Cutscenes
 
+TODO - Music, Dash effects, type text, tts, AI npc.
+
 Assets:
 https://legnops.itch.io/red-hood-character
 https://pixel-poem.itch.io/dungeon-assetpuck
