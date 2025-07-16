@@ -24,16 +24,13 @@ Build Levels
 Create Tilesets:
 Move Tileset assets/pngs in
 -Dungeon
--MossyCavern
 (Apply Paper2D)
 RC create Tileset
-RC Condition tileset texture (Dungeon ok.. DO NOT DO MOSSY!)
+RC Condition tileset texture
 Open Adjust square size (32x32?)
 Add collisions (Add box, add polygon)
 
-TODO:
-Create TileMaps
-TS_AFForest & TS_Dungeon
+Create TileMap
 RC Tileset "Create TileMap"
 In the TM_s pixel per unit .25
 Map Width & Map Height (100x40)
@@ -46,7 +43,20 @@ Background (uncheck layer collides)
 Sort Priority - Translucent Unlit Srite Material has a sort priority
 (Sort prio for character and props (sprites))
 
+Exterior:
+Pickups
+Doors
+Rats
+* Dialog & Quest
+Level End
 
+Dungeon:
+Auto Platform
+Switch Platform
+Goblin
+* EndQuest Actor
+
+TODO: Upgrade dash. (15?)
 
 
 
